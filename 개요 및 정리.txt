@@ -1,5 +1,6 @@
 IOC(Inversion of Control) : 객체를 생성해주고 관리해줌, 여태 개발자들이 했던 것들을 IOC가 한다하여 제어반전이라 한다
 
+
 DI(Dependency Indection) : IOC가 만들어둔 객체를 피룡한 위치에서 주입한다. 이러하여 의존성 주입이라 한다.
 
 IOC/DI 는 세트로 많이 엮어서 정리, 사실상 세트
@@ -18,7 +19,8 @@ View (jsp, html)
 Controller ( req, resp을 받아서 처리해줌)
 @Controller, @Service, @Repository( == DAO)
 
-PSA(Portable Service Abstraction) : 
+PSA(Portable Service Abstraction) : 추상화 기술을 제공하여 다양한 외부 프로그램들을 다루는것
+예를 들어 JDBC를 이용할때 OJDBC와 MySQL에 맞게 정리되어 사용
 
 
 Beans : Spring이 만든 객체
