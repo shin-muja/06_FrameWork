@@ -4,6 +4,8 @@ import java.util.Map;
 
 import org.springframework.stereotype.Service;
 
+import edu.kh.todo.model.dto.Todo;
+
 
 @Service 
 public interface TodoService {
@@ -24,5 +26,30 @@ public interface TodoService {
 	 * @return result
 	 */
 	int addTodo(String todoTitle, String todoContent);
+
+	
+	/** 할 일 상세 조회
+	 * @param todoNo
+	 * @return todo
+	 */
+	Todo todoDetail(int todoNo);
+
+	/** 완료 여부 변경
+	 * @param todo
+	 * @return
+	 */
+	int changeComplete(Todo todo);
+
+	/** 할 일 수정
+	 * @param todo
+	 * @return result
+	 */
+	int updateTodo(Todo todo);
+	
+	/** 할 일 삭제
+	 * @param todoNo
+	 * @return result
+	 */
+	int delete(int todoNo);
 
 }

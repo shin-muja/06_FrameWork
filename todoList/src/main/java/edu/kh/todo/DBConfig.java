@@ -93,7 +93,7 @@ public class DBConfig {
 	
 	/////////////////// Mybatics 설정 ///////////////////
 	// Mybatics : Java 애플리케이션에서 SQL을 더 쉽게 사용할 수 있도록 도와주는 영속성 프레임워크
-	// 영속성 프레임워크(Persistence Frameword)는 애플케이션의 데이터를
+	// 영속성 프레임워크(Persistence Framework)는 애플케이션의 데이터를
 	// 데이터베이스 같은 저장소에 영구적으로 저장하고,
 	// 이를 쉽게 조회, 수정, 삭제 등 할 수 있도록 도와주는 프레임 워크
 	
